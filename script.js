@@ -30,7 +30,13 @@ function solve(data){
     data=data.replace(/\s/g,'')
     
     var validNums=[1,2,3,4,5,6,7,8,9,0];
+while (data.contains("x")){
 
+for (var i=0; i<data.length; i++){
+if (data[i]=="x"){}
+}
+
+}
     updateDisplay(result, answer=true);
 }
 
